@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&family=Indie+Flower&family=Luckiest+Guy&family=Tangerine:wght@700&display=swap');
+body{
+    background-image: url('./images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navv{
+    position:sticky;
+    top:10px;
+}
+.logo{
+    padding-left: 120px;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 30px!important;
+}
+.row1{
+    width:100%;
+    height:100px;
+}
+.col1,.col2{
+    padding: 30px;
+}
+.col1{
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.col1:hover{
+  color: saddlebrown;
+  transform: scale(1.1);
+}
+.col2 img{
+    height:450px;
+    width: 400px;
+    margin-left: 50px;
+
+}
+.mg{
+    padding-left: 70px;;
+}
+.a1{
+    font-family: 'Tangerine', cursive;
+
+}
+.a2{
+    font-family: 'Gafata', sans-serif;
+    font-size: 60px;
+
+}
+.a3{
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0);
+    transition: box-shadow 0.3s ease;
+}
+.a3:hover{
+    color: black!important;
+    text-decoration: underline;
+    box-shadow: 0 0 10px 3px rgba(47, 47, 52, 0.385);
+}
+
+.abt p{
+    /* width:80%; */
+    margin:50px;
+}
+.card1{
+    padding-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+}
+.card1 img{
+    height:200px;
+    width: 240px;
+}
+.card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.01); 
+  }
+
+@media(max-width:450px){
+    .a2{
+        font-size: 30px;
+    }
+    .col2 img{
+        height:250px;
+        width:200px;
+        align-items: center;
+    
+    }
+}
+
+
+  
+  .education h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;    
+  }
+  
+  .education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .education li {
+    margin-bottom: 20px;
+  }
+  
+  .education-info {
+    border-left: 2px solid rgb(53, 52, 52);
+    padding-left: 10px;
+  }
+  
+  .education-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .education-info p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .contact-me {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-me h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .contact-me p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .contact-me form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-me input,
+  .contact-me textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #5b5a5a;
+  }
+  
+  .contact-me button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #353b3e;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+ 
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .social-icons a:hover {
+    color: #996a50;
+  }
+  .my-works {
+    margin-top: 40px;
+  }
+  
+  .my-works h2 {
+    text-align: center;
+  }
+  
+  .cardab {
+    margin:10;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out black;
+
+  }
+  
+  .cardab:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardab img {
+    max-width: 100%;
+  }
+  
+  .cardab-body {
+    text-align: center;
+  }
+  
+  .cardab-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .cardab-text {
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
